@@ -1,0 +1,192 @@
+body, html {
+    height: 100%;}
+body {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	margin: 0px;
+	background-color: #FFF;}
+h1 {
+    color: #333;
+    font-size: 26px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: normal;}
+
+/* Navigation Bar */
+ul.top-nav {
+    z-index: 9999;
+    height: 45px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #282828;
+    list-style-type: none;
+    overflow: hidden;}
+ul.top-nav li {
+    float: left;}
+ul.top-nav li a {
+    display: inline-block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+ul.top-nav li a:hover {
+    background-color: #ED7B19;}
+
+/* Background Image */
+div.bg-image {
+    z-index: 0;
+    background-image: url("http://d56b293rhv8dp.cloudfront.net/languages/1/cover_images/original/July_2016_Landing_Page_2.jpg");
+    height: 87%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+/* Logo */
+div.header-logo {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    /* width:150px / 2 = 75px */
+    margin-left: -75px;}
+img.header-logo {
+    height: 119px;
+    width: 150px;}
+
+/* Homepage Widget */
+div#widget {
+    position: absolute;
+    width: 500px;
+    left: 50%;
+    margin-left: -246px;
+    top: 35%;}
+form#widget {
+    position: absolute; 
+    display: inline-block;
+    width: 500px;
+    z-index: 1;}
+input.widget-field-divided {
+    width: 47%;
+    padding: 3px;
+    font-size: 16px;}
+a.widget-submit-btn, a.icon-btn, a.dest-btn {
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    width: 150px;
+    display: block;
+    left: 50%;
+    margin-left: 155px;}
+a.widget-submit-btn:hover, a.icon-btn:hover, a.dest-btn:hover {
+    background: #ED7B19;}
+
+/* Wrappers */
+div.wrapper-icon, div.wrapper-club-er, div.wrapper-destinations, div.wrapper-deals {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;}
+div.wrapper-destinations {
+    height: 750px;}
+div.destinations-bg {
+    background-image: url("images/mapbg.jpg");
+    background-size: cover;}
+div.wrapper-deals {
+    height: 700px;}
+div.wrapper-club-er {
+    height: 50px;
+    margin-bottom: 30px;}
+
+/* What We Offer */
+div.icon-left, div.icon-right {
+    width: 597px;
+    height: 150px;
+    background-color: #EFEFEF;
+    padding: 15px 0px 15px 0px;}
+div.icon-right {
+    float: right;}    
+div.icon-left {
+    float: left;}
+div.icon-left-container, div.icon-right-container {
+    float: left;
+    background-color: #EFEFEF;
+    width: 250px;
+    height: 150px;
+    padding: 0px 10px 0px 0px;}
+img.icon-rental, img.icon-tours {
+    height: 150px;
+    width: 104px;
+    display: block;
+    margin: 0px auto;}
+img.icon-tours {
+    height: 150px;
+    width: 228px;}
+p.icon-info {
+    height: 120px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;}
+a.icon-btn, a.dest-btn {
+    float: right;
+    margin: 0 auto;}
+div.icon-btn-container {
+    padding: 0px 10px 10px 0px;}
+
+/* Top Destinations */
+div.destination1, div.destination2, div.destination3, div.destination4 {
+    display: block;
+    background-color: #333;
+    cursor: pointer;}
+div.destination1 {
+    background-image: url("images/los_angeles.jpg");
+    float: left;
+    height: 300px;
+    width: 900px;}
+div.destination2 {
+    background-image: url("images/las_vegas.jpg");
+    float: right;
+    height: 600px;
+    width: 295px;}
+div.destination3 {
+    background-image: url("images/miami.jpg");
+    float: left;
+    height: 295px;
+    width: 447.5px;
+    margin: 5px 5px 0px 0px;}
+div.destination4 {
+    background-image: url("images/chicago.jpg");
+    float: left;
+    height: 295px;
+    width: 447.5px;
+    margin: 5px 5px 0px 0px;}
+a.dest-btn {
+    background-color: #4B99AD;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    padding: 8px 0px;}
+div.dest-btn-container1 {
+    padding: 266px 0px 0px 0px;}
+a.dest-btn1 {
+    width: 900px;}
+div.dest-btn-container2 {
+    padding: 566px 0px 0px 0px;}
+a.dest-btn2 {
+    width: 295px;}
+div.dest-btn-container3, div.dest-btn-container4 {
+    padding: 261px 0px 0px 0px;}
+a.dest-btn3, a.dest-btn4 {
+    width: 447.5px;}
+
+/* Footer */
+div.footer {
+    display: block;
+    background-color: #282828;
+    width: 100%;
+    height: 200px;}
